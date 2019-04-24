@@ -16,10 +16,13 @@
         <nav>
           <ul class="nav nav-pills float-right">
             <li class="nav-item">
-              <a class="nav-link active" href="index.php">Home <span class="sr-only">(current)</span></a>
+              <a <?= isset($page)&&$page=='home.php'?"class='nav-link active'":"class='nav-link'" ?> href="index.php">Home <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="create.php">Create Listing</a>
+              <a <?= isset($page)&&$page=='create.php'?"class='nav-link active'":"class='nav-link'" ?> href="create.php">Create Listing</a>
+            </li>
+            <li class="nav-item">
+              <a <?= isset($page)&&$page=='about.php'?"class='nav-link active'":"class='nav-link'" ?> href="about.php">About <span class="sr-only">(current)</span></a>
             </li>
           </ul>
         </nav>

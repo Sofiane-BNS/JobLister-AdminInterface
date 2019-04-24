@@ -1,5 +1,5 @@
 	  <footer class="footer">
-          <p>&copy; JobLister 2019</p>
+          <p>&copy; JobLister 2019 -&nbsp;S.Benslimane</p>
       </footer>
 
     </div> <!-- /container -->

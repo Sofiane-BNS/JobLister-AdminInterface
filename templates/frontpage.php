@@ -1,4 +1,7 @@
-<?php include 'inc/header.php'; ?>
+<?php 
+$page='home.php';
+include 'inc/header.php';
+?>
 	
  
 
